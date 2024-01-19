@@ -8,4 +8,6 @@ secretGenerator:
   - name: region
     files:
     - region=region.txt
-
+  - name: password
+    envs:
+    - .env

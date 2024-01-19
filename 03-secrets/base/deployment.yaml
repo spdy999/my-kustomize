@@ -32,3 +32,8 @@ spec:
             secretKeyRef:
                 name: region
                 key: region
+        - name: PASWD
+          valueFrom:
+            secretKeyRef:
+                name: password
+                key: PASSWORD
