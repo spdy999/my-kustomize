@@ -27,3 +27,11 @@ spec:
             configMapKeyRef:
               name: config
               key: env
+        volumeMounts:
+        - name: credentials
+          mountPath: /etc/config
+      volumes:
+        - name: credentials
+          configMap:
+            name: credentials
+
