@@ -5,4 +5,7 @@ secretGenerator:
   - name: username
     literals:
     - username=admin
+  - name: region
+    files:
+    - region=region.txt
 

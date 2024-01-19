@@ -27,3 +27,8 @@ spec:
             secretKeyRef:
                 name: username
                 key: username
+        - name: REGION
+          valueFrom:
+            secretKeyRef:
+                name: region
+                key: region
